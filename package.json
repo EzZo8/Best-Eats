@@ -2,7 +2,7 @@
   "name": "best_eats",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/EzZo8/Best-Eats.git",
+  "homepage": "https://ezzo8.github.io/Best-Eats/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -17,8 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "predeploy" : "npm run build",
-    "deploy" : "" ,
+    "predeploy" : "npm run build" ,
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
